@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/primary"
+        android:text="主页"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:id="@+id/button_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="画中画"/>
+
+    <Button
+        android:id="@+id/button_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView自适应"/>
+
+    <Button
+        android:id="@+id/button_java8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="java8"/>
+
+    <Button
+        android:id="@+id/button_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通知"/>
+
+    <Button
+        android:id="@+id/button_sys_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统dialog"/>
+
+    <Button
+        android:id="@+id/button_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scroll"/>
+
+    <Button
+        android:id="@+id/button_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="xml解析"/>
+
+    <Button
+        android:id="@+id/button_luncher_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更改桌面图标"/>
+
+</LinearLayout>
